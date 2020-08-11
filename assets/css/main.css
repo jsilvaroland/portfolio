@@ -25,6 +25,57 @@
 	letter-spacing: 0.125em;
 }
 
+.resume > button:focus {
+	outline: none;
+}
+
+.resume > button:hover {
+	background-color: #6e6570;
+	border-color: #6e6570;
+	cursor: pointer;
+}
+
+#about {
+	text-transform: none;
+	letter-spacing: normal;
+	color: #6E6E6E;
+	font-size: 15px;
+	border: none;
+	margin-top: 0;
+	padding-top: 0;
+}
+
+#skills {
+	width: 48em;
+	padding: 2.5em 4.5em 0;
+}
+
+#skills > div {
+	display: flex;
+	justify-content: space-between;
+	padding-top: 10px;
+}
+
+.technologies li {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+li span {
+	padding: 10px 0 30px;
+}
+
+.technologies i {
+	font-size: 48px;
+	width: 48px;
+}
+
+.technologies svg {
+	height: 48px;
+	width: 48px;
+}
+
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,

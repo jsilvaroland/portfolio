@@ -7,6 +7,21 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+#image {
+	text-align: center;
+	width: 100%;
+	max-height: 100%;
+	object-fit: cover;
+}
+
+#contact {
+	margin-bottom: 10px;
+}
+
+#contact-info {
+	margin-bottom: 15px;
+}
+
 .resume {
 	text-align: center;
 	margin-bottom: 35px;

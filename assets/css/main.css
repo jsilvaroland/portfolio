@@ -27,10 +27,9 @@
 	margin-bottom: 35px;
 }
 
-.resume > button {
+.resume button {
 	height: 50px;
 	width: 235px;
-	color: #fff;
 	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 0.9em;
 	font-weight: 700;
@@ -40,11 +39,16 @@
 	letter-spacing: 0.125em;
 }
 
-.resume > button:focus {
+.btntext {
+	color: white;
+	border: none;
+}
+
+.resume button:focus {
 	outline: none;
 }
 
-.resume > button:hover {
+.resume button:hover {
 	background-color: #6e6570;
 	border-color: #6e6570;
 	cursor: pointer;

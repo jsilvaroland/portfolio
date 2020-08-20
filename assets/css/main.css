@@ -37,11 +37,7 @@
 	border-radius: 4px;
 	background-color: #544d55;
 	letter-spacing: 0.125em;
-}
-
-.btntext {
 	color: white;
-	border: none;
 }
 
 .resume button:focus {

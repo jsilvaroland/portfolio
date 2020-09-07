@@ -40,6 +40,13 @@
 	color: white;
 }
 
+.profpic {
+	width: 350px;
+	height: 350px;
+	object-fit: contain;
+	border-radius: 50%;
+}
+
 .resume button:focus {
 	outline: none;
 }
